@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 5px 0;
+}
+
+.caixa {
+    position: relative; 
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa nav {
+    position: absolute; /* para que nav seja absolute com relação à div.caixa e não com relação à página */
+    top: 110px;
+    right: 0;
+}
+ 
+.caixa nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.caixa nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Special Elite', cursive;
+}
+
+.caixa nav a:hover {
+    color: #C78C19;
+    text-decoration: underline; /* Fica sublinhado quando o mouse fica por cima do menu de navegação */
+}
+
+h1 {
+    display: flex;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+}
+
+h1 span {
+    margin-top: 110px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+h2, h3 {
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+}
+
+.titulocentralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color:#FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.beneficios ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
