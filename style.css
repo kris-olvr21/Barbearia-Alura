@@ -3,8 +3,19 @@ body {
 }
 
 header {
+    position: fixed;
+    width: 100%;
     background: #BBBBBB;
-    padding: 20px 0;
+    padding: 5px 0;
+}
+
+h1 img {
+    width: 127px;
+    height: 200px;
+}
+
+main {
+    padding-top: 220px;
 }
 
 .caixa {
@@ -15,7 +26,7 @@ header {
 
 nav {
     position: absolute; /* para que nav seja absolute com relação à div.caixa e não com relação à página */
-    top: 110px;
+    top: 90px;
     right: 0;
 }
  
@@ -255,11 +266,20 @@ td, th {
 }
 
 /* Responsividade */
-
 @media screen and (max-width: 480px) { /* Para adptação em mobile */
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, form {
         width: auto;
         margin: 10px;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    header {
+        width: auto;
+        margin: 0;
+        position: relative;
     }
 
     h1 {
